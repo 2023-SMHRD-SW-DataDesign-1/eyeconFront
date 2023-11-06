@@ -78,7 +78,7 @@ const ResultMain = ({ onImageMove }) => {
 
     return (
         <div className="flex flex-col items-center font-Pretendard">
-            <div className="w-[90%] md:w-[70%] md:h-[95%] rounded-2xl" style={{ background: "linear-gradient(179.97deg, #fff 0.05%, rgba(255,255,255,0) 99.98%)", boxShadow: "0px 4px 30px 0 rgba(190,190,190,0.47)" }}>
+            <div className="w-[90%] md:w-[70%] md:h-[95%] rounded-2xl" style={{ background: "linear-gradient(179.97deg, #fff 0.05%, rgba(255,255,255,0) 99.98%)", boxShadow: "0px 4px 50px 0 rgba(190,190,190,0.47)" }}>
 
                 {/* 시선 분석 헤더 박스 */}
                 <div className='grid grid-cols-12 mb-3'>
