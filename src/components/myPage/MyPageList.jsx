@@ -9,7 +9,7 @@ const MyPageList = () => {
   // 내 가게 임시 데이터 
   const [myPageList, setMyPageList] = useState([
     {
-      index: 1,
+      index: 0,
       storeName: "아이콘 편의점",
       category: "편의점",
       place1: "광주광역시 동구 충장로 1가",
