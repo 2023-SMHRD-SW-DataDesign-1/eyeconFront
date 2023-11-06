@@ -192,11 +192,11 @@ const ResultMain = ({ onImageMove }) => {
                             </div>
 
                             {/* 상품 배치 하기 버튼 */}
-                            <button className=" font-bold text-white col-start-2 col-end-12 bg-[#46cfb9] p-3 rounded-2xl mb-3 md:block hidden"
+                            <button className=" font-bold text-white text-xl col-start-2 col-end-12 bg-[#46cfb9] p-3 rounded-2xl mb-3 md:block hidden"
                                 onClick={() => handleImageMove(item.beforeimg, item.hitmap)}
                             >
                                 {/* list 페이지 이동 */}
-                                가상 상품 배치 <img className=" inline-block ml-2 w-4" src="https://i.ibb.co/0Cbr629/icon-arrow-right-1.png" />
+                                가상 상품 배치 하기<img className=" inline-block ml-2 w-4" src="https://i.ibb.co/0Cbr629/icon-arrow-right-1.png" />
 
                             </button>
 
