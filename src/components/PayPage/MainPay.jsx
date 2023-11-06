@@ -3,7 +3,7 @@ import Lottie from 'react-lottie-player';
 import lottieJson from '../../lottie/transaction.json';
 
 import { TokenRefresherContext } from '../../context/TokenRefresherContext';
-import usePayment from './../../hook/userPage/usePayment';
+import usePayment from '../../hook/userPage/usePayment';
 import DarkOverlay from "../../hook/userPage/useDarkOverlay";
 
 
