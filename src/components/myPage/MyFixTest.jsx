@@ -114,6 +114,7 @@ const MyFixTest = () => {
             {/* 내 가게 생성될 공간 */}
             <div className="md:col-span-4 col-span-7">
               <MyPageList />
+        
             </div>
           </div>
         </div>
