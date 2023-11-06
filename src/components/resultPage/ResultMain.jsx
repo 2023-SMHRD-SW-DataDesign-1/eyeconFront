@@ -78,7 +78,7 @@ const ResultMain = ({ onImageMove }) => {
 
     return (
         <div className="flex flex-col items-center font-Pretendard">
-            <div className="w-[90%] md:w-[70%] md:h-[95%] rounded-2xl" style={{ background: "linear-gradient(179.97deg, #fff 0.05%, rgba(255,255,255,0) 99.98%)", boxShadow: "0px 4px 30px 0 rgba(190,190,190,0.47)" }}>
+            <div className="w-[90%] md:w-[70%] md:h-[95%] rounded-2xl" style={{ background: "linear-gradient(179.97deg, #fff 0.05%, rgba(255,255,255,0) 99.98%)", boxShadow: "0px 4px 50px 0 rgba(190,190,190,0.47)" }}>
 
                 {/* 시선 분석 헤더 박스 */}
                 <div className='grid grid-cols-12 mb-3'>
@@ -153,12 +153,12 @@ const ResultMain = ({ onImageMove }) => {
                                 <div className="w-full flex justify-between items-center p-3">
                                     <span className="text-xl font-bold p-1">시선분석 전</span>
                                     <a href={item.beforeimg} download="image.jpg">
-                                        <button className="rounded-3xl border-[2px] border-[#19ab93] p-2 text-sm font-bold">Download ↓</button>
+                                        <button className="rounded-3xl border-[2px] border-[#19ab93] p-2 text-sm font-bold transition duration-300 hover:scale-110">Download ↓</button>
                                     </a>
                                 </div>
                                 <div className="w-full p-3">
                                     시선 분석 전 매대 사진입니다.<br />
-                                    다운로드를 원하시면 버튼을 눌러주세요.
+                                    다운로드를 원하시면 상단의 버튼을 눌러주세요.
                                 </div>
                             </div>
 
@@ -176,13 +176,14 @@ const ResultMain = ({ onImageMove }) => {
                                 <div className="w-full flex justify-between items-center p-3">
                                     <span className="text-xl font-bold">시선분석 후</span>
                                     <a href={item.hitmap} download="image.jpg">
-                                        <button className="rounded-3xl border-[2px] border-[#19ab93] p-2 text-sm font-bold">Download ↓</button>
+                                        <button className="rounded-3xl border-[2px] border-[#19ab93] p-2 text-sm font-bold transition duration-300 hover:scale-110">Download ↓</button>
                                     </a>
                                 </div>
-                                <div className="w-full p-3">
-                                    시선 분석 후 매대 사진입니다.<br />
-                                    색깔이 있는 곳이 고객들의 시선이 많이 머무는 곳입니다.<br />
-                                    다운로드를 원하시면 버튼을 눌러주세요.
+                                <div className="w-full p-3 text-base">
+                                    시선 분석 후 매대 사진입니다.<br/>
+                                    빨간색이 분포된 곳이 고객들의 시선이 많이 <br/>머무는 곳입니다.
+                                    
+                                    
                                 </div>
                             </div>
 
@@ -192,11 +193,11 @@ const ResultMain = ({ onImageMove }) => {
                             </div>
 
                             {/* 상품 배치 하기 버튼 */}
-                            <button className=" font-bold text-white text-xl col-start-2 col-end-12 bg-[#46cfb9] p-3 rounded-2xl mb-3 md:block hidden"
+                            <button className="transition duration-300 hover:bg-[#1DB59C] font-bold text-white col-start-2 col-end-12 bg-[#46cfb9] p-3 rounded-2xl mb-3 md:block hidden"
                                 onClick={() => handleImageMove(item.beforeimg, item.hitmap)}
                             >
                                 {/* list 페이지 이동 */}
-                                가상 상품 배치 하기<img className=" inline-block ml-2 w-4" src="https://i.ibb.co/0Cbr629/icon-arrow-right-1.png" />
+                                가상 상품 배치 하기<img className="  inline-block ml-2 w-4" src="https://i.ibb.co/0Cbr629/icon-arrow-right-1.png" />
 
                             </button>
 
