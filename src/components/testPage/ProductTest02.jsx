@@ -9,7 +9,7 @@ const ProductTest02 = ({ beforeimg, hitmap}) => {
     const [imageUrls, setImageUrls] = useState([]);
     const canvas = new fabric.Canvas('canvas');
     useEffect(() => {
-        axios.post('http://localhost:5000/slice',{ 
+        axios.post('http://13.124.30.27:5000/slice',{ 
             // beforeImgUrl은 result페이지에서 받아와야 됨
            beforeImgUrl : beforeimg})
         .then(response => { 
