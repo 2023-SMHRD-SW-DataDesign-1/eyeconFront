@@ -22,7 +22,7 @@ function ResultPage() {
   };
 
   return (
-    <div>
+    <div className='dark:bg-gray-800 '>
     <HeaderAfter />
 
       {beforeimg !== null || hitmap !== null ? (
