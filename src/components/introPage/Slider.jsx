@@ -54,7 +54,7 @@ function IntroSlider() {
 
     return (
         <Swiper
-            style={{ height: "700px", marginTop: "5%"}}
+            style={{ height: "700px", marginTop: "5%" }}
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
@@ -69,23 +69,31 @@ function IntroSlider() {
             onAutoplayTimeLeft={onAutoplayTimeLeft}
             className="mySwiper"
         >
-
-            <SwiperSlide><div className="dark:bg-[#8C8C8C] bg-[#F5EDF6] w-full h-full">
-
-                <div className=" mr-60 flex justify-end text-gray-800">
-                    <img src="https://i.ibb.co/BGVMTtp/1-01.png" alt="" className="w-[50%] mt-20" /> <SlideAni /></div>
-            </div></SwiperSlide>
-
+            <SwiperSlide>
+                <div className="dark:bg-[#82DD0F] bg-[#C4F981] w-full h-full">
+                    <div className=" mr-80 flex justify-end text-gray-800">
+                        <img src="https://i.ibb.co/XLQb7qV/Untitled-11-01.png" alt="" className="w-[40%] mt-20" /> <SlideAni3 /></div>
+                </div>
+            </SwiperSlide>
             <SwiperSlide><div className="dark:bg-[#3275E9] bg-[#609DE4] w-full h-full">
 
                 <div className=" mr-60 flex justify-end text-gray-800">
                     <SlideAni2 /> <img src="https://i.ibb.co/k6GbMwf/Untitled-8-01.png" alt="" className="w-[40%]" /> </div>
             </div></SwiperSlide>
-            <SwiperSlide><div className="dark:bg-[#82DD0F] bg-[#C4F981] w-full h-full">
+            <SwiperSlide>
+                <div className="dark:bg-[#8C8C8C] bg-[#F5EDF6] w-full h-full">
 
-                <div className=" mr-80 flex justify-end text-gray-800">
-                    <img src="https://i.ibb.co/XLQb7qV/Untitled-11-01.png" alt="" className="w-[40%] mt-20" /> <SlideAni3 /></div>
-            </div></SwiperSlide>
+                    <div className=" mr-60 flex justify-end text-gray-800">
+                        <img src="https://i.ibb.co/BGVMTtp/1-01.png" alt="" className="w-[50%] mt-20" /> <SlideAni /></div>
+                </div>
+
+
+
+
+            </SwiperSlide>
+
+
+
 
 
 

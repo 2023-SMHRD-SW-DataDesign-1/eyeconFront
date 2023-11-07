@@ -14,7 +14,7 @@ const C05Result = ({ handleButtonClick }) => {
       isMine: false,
     },
     {
-      content: "시선 분석 결과를 출력하겠습니다.",
+      content: "잠시후 시선 분석 결과를 출력됩니다. 추가적인 질문 사항이 있으시면 이콘이에게 질문해주세요. '결과페이지 바로가기' 버튼을 누르시면 결과 페이지로 이동합니다.",
       isMine: false,
     },
   ];
