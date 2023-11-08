@@ -47,7 +47,7 @@ const useChat = (initialMessage) => {
     axios.defaults.withCredentials = false;
     try {
       // 서버로 메시지를 보냅니다.
-      const response = await axios.post(`https://3.36.133.196:5000/consult`, {
+      const response = await axios.post(`http://3.36.133.196:5000/consult`, {
         'role': 'user',
         content: inputValue, // 메시지 내용을 서버로 보냅니다.
       });
