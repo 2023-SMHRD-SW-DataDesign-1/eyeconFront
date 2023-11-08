@@ -24,7 +24,7 @@ function IntroSlider() {
                 loop
                 animationData={lottieJson}
                 play
-                style={{ width: "100%", maxWidth: "700px" }}
+                style={{ width: "100%", maxWidth: "600px" }}
             />
         );
     }
@@ -35,7 +35,7 @@ function IntroSlider() {
                 loop
                 animationData={lottieJson2}
                 play
-                style={{ width: "100%", maxWidth: "650px" }}
+                style={{ width: "100%", maxWidth: "550px" }}
             />
         );
     }
@@ -78,7 +78,7 @@ function IntroSlider() {
             <SwiperSlide><div className="dark:bg-[#3275E9] bg-[#609DE4] w-full h-full">
 
                 <div className=" mr-60 flex justify-end text-gray-800">
-                    <SlideAni2 /> <img src="https://i.ibb.co/k6GbMwf/Untitled-8-01.png" alt="" className="w-[40%]" /> </div>
+                    <SlideAni2 /> <img src="https://i.ibb.co/k6GbMwf/Untitled-8-01.png" alt="" className="w-[40%] mt-20" /> </div>
             </div></SwiperSlide>
             <SwiperSlide>
                 <div className="dark:bg-[#8C8C8C] bg-[#F5EDF6] w-full h-full">
