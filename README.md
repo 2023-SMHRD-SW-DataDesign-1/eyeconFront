@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# EYECON
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 👀 시선 예측 AI를 활용한 매대 상품 배치 최적화 서비스 EYECON
+![표지](https://github.com/2023-SMHRD-SW-DataDesign-1/eyeconFront/assets/134522033/41d1632c-8c0b-4ab5-9929-fe394c857f6e)
 
-## Available Scripts
 
-In the project directory, you can run:
+### **📅 프로젝트 기간**
+---
+2023/10/10 ~ 2023/11/10 (4주)
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **👀**서비스 소개
+---
+🌸 서비스 명 : 시선 예측 AI를 활용한 매대 상품 배치 최적화 서비스 아이콘 EYECON
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌼 서비스 설명 :
+  - ✨ EYECON 서비스는 오프라인 소매 업체들을 위해 효과적인 마케팅 방법을 제공해요  
+  - 📡 [시선 예측 AI] 사람들의 시선이 가장 많이 향하는 매대의 위치를 예측하는 시선 예측 서비스
+  - 💻 [상권 분석 챗봇] ChatGPT를 활용, 해당 상권을 체계적으로 분석한 상권 분석 데이터를 제공하는 상권 분석 서비스
+  - 🛠 [플래노그램] YOLOv5, FabricJS를 활용, 매대의 상품을 가상으로 배치해볼 수 있는 서비스
+  - 💵 [결제] PortOne API를 활용, 플랫폼의 완성도를 높일 결제 서비스
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
