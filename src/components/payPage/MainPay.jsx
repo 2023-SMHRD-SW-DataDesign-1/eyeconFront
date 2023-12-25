@@ -39,8 +39,8 @@ const MainPay = () => {
     }, [TokenRefresher]);
 
 
-    const image1 = "https://i.ibb.co/zbHnGYX/icon.png";
-    const image2 = "https://i.ibb.co/M5rqSD4/icon-1.png";
+    const image1 = "https://i.ibb.co/RTPNBCX/5.png";
+    const image2 = "https://i.ibb.co/RTPNBCX/5.png";
 
     function Transaction() {
         return (

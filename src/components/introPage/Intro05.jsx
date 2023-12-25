@@ -17,7 +17,7 @@ const Intro05 = () => {
                     <div className="col-span-12 md:col-span-5 ">
                         <div style={{ height: '80px' }} className="mt-10 flex md:block items-center justify-center">
                             <img
-                                src="https://i.ibb.co/XXscVvr/Group-6348.png"
+                                src="https://i.ibb.co/D7RP29Z/4.png"
                                 alt="logo"
                             />
                         </div>

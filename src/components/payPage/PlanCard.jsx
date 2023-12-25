@@ -2,8 +2,8 @@ import React from "react";
 
 function PlanCard() {
 
-  const image1 = "https://i.ibb.co/zbHnGYX/icon.png";
-  const image2 = "https://i.ibb.co/M5rqSD4/icon-1.png";
+  const image1 = "https://i.ibb.co/RTPNBCX/5.png";
+  const image2 = "https://i.ibb.co/5kBZ0X9/6.png";
 
   return (
     <div className="container mx-auto grid grid-cols-11 p-3 max-w-screen-xl font-Pretendard dark:text-[#F2F2F2]">
