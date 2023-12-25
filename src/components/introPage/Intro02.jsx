@@ -100,7 +100,7 @@ const Intro02 = () => {
       <div className="flex flex-row-reverse items-center">
         <div className="w-64 md:w-auto md:block hidden">
           <img
-            src="https://i.ibb.co/dQ4mzLc/image.png"
+            src="https://i.ibb.co/ZgJdZpR/1.png"
             alt="intro3"
             className="h-auto pointer-events-none"
           />

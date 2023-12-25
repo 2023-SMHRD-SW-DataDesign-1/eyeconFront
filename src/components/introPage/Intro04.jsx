@@ -9,7 +9,7 @@ const Intro04 = () => {
             {/* 타이틀 이미지 */}
             <div className="w-64 md:w-auto relative md:block hidden">
                 <img
-                    src="https://i.ibb.co/yFd8xnM/AI.png"
+                    src="https://i.ibb.co/s2SgGy4/2.png"
                     alt="intro4"
                     className="h-auto pointer-events-none"
                 />
@@ -60,11 +60,11 @@ const Intro04 = () => {
                     </div>
                 </div>
 
-            /
+            
                 {/* 이미지 */}
                 <div className="col-span-5 md:block hidden transition duration-300 hover:opacity-70">
                     <img
-                        src="https://i.ibb.co/8bGbrfq/Frame-627042.png"
+                        src="https://i.ibb.co/QCdvyg3/3.png"
                         alt="intro5"
                         className="h-auto pointer-events-none "
                     />
