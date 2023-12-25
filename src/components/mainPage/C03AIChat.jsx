@@ -139,7 +139,7 @@ const C03AIChat = ({ handleButtonClick }) => {
                             className='mr-20 col-span-1 w-12 h-12 rounded-full bg-[#15c3a7] flex items-center justify-center'
                             onClick={chatHandleSubmit}
                         >
-                            <img src="https://i.ibb.co/0YLQ66v/Vector.png" alt="Vector" border="0" />
+                            <img src="https://i.ibb.co/mFsvnL7/image.png" alt="Vector" border="0" />
                         </button>
                     </div>
                 }
